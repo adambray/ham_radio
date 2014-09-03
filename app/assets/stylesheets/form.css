@@ -1,0 +1,45 @@
+#new-song-modal  {
+    display: none; /* ensures it’s invisible until it’s called */
+    overflow: scroll;
+    position: absolute; /* makes the div go into a position that’s absolute to the browser viewing area */
+    left: 25%; /* positions the div half way horizontally */
+    top: 25%; /* positions the div half way vertically */
+    padding: 25px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    background-color: #eeeeee;
+    width: 50%;
+    z-index: 100; /* makes the div the top layer, so it’ll lay on top of the other content */
+}
+
+.new-song {
+  width: 600px;
+  margin: auto;
+}
+
+.close {
+  float: right;
+}
+
+label, input {
+    display: inline-block; /* in order to define widths */
+}
+
+label {
+    width: 30%;
+    text-align: right; /* positions the label text beside the input */
+}
+
+label + input {
+    width: 30%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 10px 30% 0 4%;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+button {
+    float: right;
+    margin-right: 34%;
+}

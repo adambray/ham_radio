@@ -1,0 +1,35 @@
+#page-header {
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  font-size: 32pt;
+}
+
+.nav {
+  float: right;
+  padding: 0;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.nav li:hover {
+  border: 1px solid gray;
+  color: inherit;
+}
+
+.nav a {
+  float: left;
+  width: 100px;
+  text-decoration: none;
+  background-color: white;
+  padding: 0.2em 0.6em;
+  text-align: center;
+  color: gray;
+}

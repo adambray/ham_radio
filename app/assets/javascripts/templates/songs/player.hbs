@@ -1,0 +1,15 @@
+<h2>Now playing</h2>
+{{#if audio_url}}
+  <div class="song-image">
+    <img src="{{album_art}}" />
+  </div>
+  <div class="song-info">
+    <p>
+      {{title}}
+    </p>
+    <p>
+      {{artist}}
+    </p>
+  </div>
+  <audio autoplay controls src="{{audio_url}}"></audio>
+{{/if}}

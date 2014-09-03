@@ -1,0 +1,19 @@
+#queue h2 {
+  text-align: center;
+}
+
+.queue-list {
+  list-style: none;
+  padding: 0;
+}
+
+.queue-list li {
+  padding: 12px 0 12px 6px;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.queue-list li:last-child {
+  border:none;
+}
